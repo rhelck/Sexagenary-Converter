@@ -197,8 +197,6 @@ if sex_input == 'man' or sex_input == 'male' or sex_input == 'm':
     sex_output = '男生'
 elif sex_input == 'woman' or sex_input == 'female' or sex_input == 'f':
     sex_output = '女生'
-elif sex_input == 'is good':
-    sex_output = 'haha nice'
 print(f"姓氏{surname_output}，{sex_output}，日期{stem_output}{branch_output}年， {month_output}月，{day_result}日。")
 print(f"New Year's Day is {month_of_new_year} {truncated_new_year}, at {hour_count} hours.")
 print("Please keep in mind that Chinese time is twelve hours ahead of the United States Eastern Time.")
